@@ -65,12 +65,12 @@ new_price:最新价格
 status_text:状态说明
 
 
-查询产品信息  http://192.168.1.204:8056/index.php?s=App/productlist/params/参数加密
+查询产品信息  http://192.168.1.204:8056/index.php?s=App/productdetail/params/参数加密
 参数
 		$params = array(
             'code'=>9658
         );
-        base64_encode(json_encode($params));
+加密    base64_encode(json_encode($params));
 
 返回结果：
 	{
@@ -133,7 +133,7 @@ issue_number:发行数量（未提货之前和剩余数量相同）
 		$params = array(
             'code'=>9658
         );
-        base64_encode(json_encode($params));
+    base64_encode(json_encode($params));
 
 返回结果： 
 	{
@@ -170,5 +170,7 @@ low:最低价格
 close:收盘价格
 volume:成交量
 amount:成交量
+
+
 
 ```
