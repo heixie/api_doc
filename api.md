@@ -149,6 +149,8 @@ issue_number:发行数量（未提货之前和剩余数量相同）
 	        "time": "2017-02-09 09:40:30",
 	        "name": "红木家具",
 	        "close": "10.00",
+		"price_change": "3.00",
+                "price_change_percent": "30.00"
 	        "buy": [
 	            "13.00,105"
 	        ],
@@ -168,6 +170,7 @@ volume:成交量
 amount:成交量
 buy:买单
 sell:卖单
-
+price_change 变动金额
+price_change_percent  涨跌幅
 
 ```
